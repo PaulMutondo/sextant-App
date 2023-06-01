@@ -1,6 +1,6 @@
 import './App.css';
 import AppFooter from './Components/AppFooter';
-import AppBanner from './Components/Banner';
+import AppBanner from './Components/Banner/AppBanner';
 import SideMenu from './Components/SideMenu';
 
 function App() {
@@ -8,10 +8,7 @@ function App() {
     <div className="App">
 
       <AppBanner/>
-      <space>
-        <SideMenu/>
-      </space>
-      <AppFooter/>
+
 
     </div>
   );

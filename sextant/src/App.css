@@ -40,3 +40,15 @@
     transform: rotate(360deg);
   }
 }
+
+/*
+.AppBanner{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  border-bottom: 1px solid rgb(63, 63, 50), ;
+  background-color: gray-400;
+}
+*/
