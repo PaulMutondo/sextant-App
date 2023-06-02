@@ -1,6 +1,6 @@
-function SideMenu() {
+//function SideMenu() {
 
-    return <div>SideMenu</div>
-}
+//   return <div>SideMenu</div>
+//}
 
-export default SideMenu;
+//export default SideMenu;

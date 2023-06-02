@@ -1,7 +1,9 @@
 import React from "react"
 import bannerImage from "../images/Banner-image2.jpg";
+import IPAddress from "../IP_address/IP_Address";
+//import IPAddress from "../IP_address/IP_Address";
 
-function Card(){
+function Card1(){
 
     return (
         <div className="Card">
@@ -15,10 +17,7 @@ function Card(){
             </div>
 
             <div >
-                <p>An Internet Protocol (IP) address is a unique numerical 
-        identifier for every device or network that connects to the internet. 
-        Typically assigned by an internet service provider (ISP), 
-        an IP address is an online device address used for communicating across the internet.</p>
+                <IPAddress/>
             </div>
             </div>
             <div>
@@ -34,4 +33,4 @@ function Card(){
 
 }
 
-export default Card;
+export default Card1;
