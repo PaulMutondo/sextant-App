@@ -4,9 +4,10 @@ function AppBanner() {
 
     return (
     <div className="flex flex-col items-center justify-center" > 
-        <p className="text- [50px] font=semibold ">Sextant App</p>
+        <h3 className="text- [50px] font=semibold ">Sextant App</h3>
         <p>Welcome to the network perfomance dashbord</p>
-        <img width={1000} height={200} src={bannerImage} alt="App Banner"/>
+        <img width={1000} height={150} src={bannerImage} alt="App Banner"/>
+
     </div>);
 
 }

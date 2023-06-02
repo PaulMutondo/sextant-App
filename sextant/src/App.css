@@ -4,6 +4,7 @@
   text-align: center;
   width: 100vw;
   height: 100vh;
+  
 }
 
 .App-logo {
@@ -52,3 +53,45 @@
   background-color: gray-400;
 }
 */
+.Card{
+  position: relative;
+  left: 162px;
+  padding: 50px;
+  width: 300px; 
+  overflow:hidden; 
+  box-shadow:0px 0px 15px -5px;
+  transition: 0.3s;
+  animation: ease-in-out;
+}
+.Card:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 0px;
+}
+.image3{
+  overflow: hidden;
+  height: 150px;
+}
+.Card-Content{
+  margin: irem;
+  margin-top: 0.5rem;
+}
+.Card-btn{
+  display: flex;
+  justify-content: center;
+}
+
+.LantencyCard{
+  position: relative;
+  left: 762px;
+  bottom: 500px;
+  padding: 50px;
+  width: 300px; 
+  overflow:hidden; 
+  box-shadow:0px 0px 15px -5px;
+  transition: 0.3s;
+  animation: ease-in-out;
+}
+.LantencyCard:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 0px;
+}
