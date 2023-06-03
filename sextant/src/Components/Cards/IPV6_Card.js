@@ -1,21 +1,26 @@
-import bannerImage from "../images/Banner-image3.jpg";
+import React from "react"
+import bannerImage from "../images/Banner-image2.jpg";
+import IPV6Address from "../IP_address/IP_Address";
+//import IPAddress from "../IP_address/IP_Address";
 
-function LantencyCard(){
+function IPV6_Card(){
 
     return (
-        <div className="LantencyCard">
-            
-            <div >
-                <h3>Network Lantency</h3>
-            </div>
+        
 
+        <div className="IPV6_Card">
+            <div>
+                <h3>IPV6 Address</h3>
+            </div>
+            
             <div className="image3">
                 <img src={bannerImage} alt="App Banner"/>
             </div>
 
             <div className="Card-Content">
+
             <div >
-                <p>View the Network Lantency here</p>
+                <IPV6Address/>
             </div>
             </div>
             <div>
@@ -31,4 +36,4 @@ function LantencyCard(){
 
 }
 
-export default LantencyCard;
+export default IPV6_Card;

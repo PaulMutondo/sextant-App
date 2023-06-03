@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios';
-function IPAddress(){
+function IPV6Address(){
 
  //creating IP state
  const [ip, setIP] = useState("");
@@ -15,7 +15,7 @@ function IPAddress(){
  // Updated Code
 
  const getData = async () => {
-   const res = await axios.get("https://api.ipify.org/?format=json");
+   const res = await axios.get("https://api64.ipify.org?format=json");
    console.log(res.data);
    setIP(res.data.ip);
  };
@@ -34,4 +34,4 @@ function IPAddress(){
 
 
 }
-export default IPAddress;
+export default IPV6Address;

@@ -7,14 +7,14 @@ function Card1(){
 
     return (
         <div className="Card">
+            <div >
+                <h3>IPv4 Address</h3>
+            </div>
             <div className="image3">
                 <img src={bannerImage} alt="App Banner"/>
             </div>
 
             <div className="Card-Content">
-            <div >
-                <h3>IP Address</h3>
-            </div>
 
             <div >
                 <IPAddress/>
