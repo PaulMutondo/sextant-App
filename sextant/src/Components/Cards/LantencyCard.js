@@ -1,3 +1,4 @@
+import Latency from "../Latency/NetworkLatency";
 import bannerImage from "../images/Banner-image3.jpg";
 
 function LantencyCard(){
@@ -15,7 +16,7 @@ function LantencyCard(){
 
             <div className="Card-Content">
             <div >
-                <p>View the Network Lantency here</p>
+                <Latency/>
             </div>
             </div>
             <div>

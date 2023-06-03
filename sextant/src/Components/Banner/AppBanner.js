@@ -1,4 +1,4 @@
-import bannerImage from "../images/Banner-image4.jpg";
+import bannerImage from "../images/Banner-image.jpg";
 
 function AppBanner() {
 
